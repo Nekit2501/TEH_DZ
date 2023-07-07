@@ -1,0 +1,274 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root 
+{
+--logo-color3: #000000;
+--logo-color: #2196F3;
+--minibox-logo-color2: #FFFFFF;
+--background-color: #2F303A;
+--text-color: #212121;
+--subtext: #757575;
+--nav-exceptions: #2196F3;
+--footer-tel-gmail:#FFFFFF99;
+--white: #FFFFFF;
+}
+
+a {
+text-decoration: none;
+}
+
+li, ul
+{
+list-style-type: none;
+}
+
+.visually-hidden 
+{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+
+outline: 0;
+outline-offset: 0;
+
+visibility: hidden;
+pointer-events: none;
+}
+
+.header
+{
+display: flex;
+align-items: center;
+}
+
+.nav_location
+{
+display: flex;
+flex-direction: row;
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
+.studio
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--nav-exceptions);
+margin-left: 93px;
+}
+
+.portfolio
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--text-color);
+margin-left: 50px;
+}
+
+.contacts
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--text-color);
+margin-left: 50px;
+}
+
+.tel-hero
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--subtext);
+margin-left: 50px;
+margin-right: 215px;
+}
+
+.tel_footer
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: var(--footer-tel-gmail);
+
+margin-left: 115px;
+}
+
+.Footer
+{
+background: var(--background-color);
+}
+
+.address
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: var(--minibox-logo-color2);
+
+margin-left: 120px;
+}
+
+.gmail-hero
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--nav-exceptions);
+margin-left: 790px;
+}
+
+.gmail-footer
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: var(--footer-tel-gmail);
+
+margin-left: 115px;
+}
+
+.logo
+{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+letter-spacing: 0.03em;
+
+color: var(--logo-color);
+
+margin-left: 120px;
+}
+
+.logo2{
+color: var(--minibox-logo-color2);
+}
+
+.logo3
+{
+color: var(--logo-color3);
+}
+
+.button_content
+{
+border-radius: 0px;
+background: #F5F4FA;
+text-align: center;
+padding: 6px 25px;
+margin-right: 8px;
+}
+
+.button_content1
+{
+border-radius: 0px;
+background: #F5F4FA;
+text-align: center;
+margin-left: 545px;
+margin-right: 8px;
+padding: 6px 25px;
+}
+
+.button_content2
+{
+border-radius: 0px;
+background: #F5F4FA;
+text-align: center;
+margin-right: 400px;
+padding: 6px 25px;
+}
+
+.butt_content_text
+{
+color: #212121;
+text-align: center;
+font-family: Roboto;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.button_content:hover
+{
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button_content1:hover
+{
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button_content2:hover
+{
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.butt_content_text:hover
+{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+}
+
+.merhandise
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}

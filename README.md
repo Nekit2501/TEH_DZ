@@ -1,2 +1,2 @@
-# TEH_DZ
+# techDz2
 dz
