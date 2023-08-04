@@ -266,9 +266,14 @@ text-align: center;
 font-family: Roboto;
 }
 
-.merhandise
+.merchandise
 {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+}
+
+.button_content:hover .butt_content_text
+{
+color: #FFF;
 }
